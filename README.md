@@ -1,27 +1,25 @@
-# GitWebBpV1
+## Build to Git
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0.
+into angular.js
+`"outputPath": "docs",`
 
-## Development server
+Run:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+`$ ng build --prod --base-href "https://GithubUserName.github.io/GithubRepoName/"`
 
-## Code scaffolding
+**Note:** Make sure you put in your Github username in “GithubUserName” and the repository name you created in “GithubRepoName” sections of the URL.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+`$ ng build --prod`
 
-## Build
+When everithing is commited in `Main` or `Master`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Go to Repo Settings in Github
+Scroll down to pages
+In `Source`
+Select Branch `Main` and `Docs`
 
-## Running unit tests
+**Wait a few minutes** until your site is built and published.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Go to the link provided by Github and hard refresh if it is necessary.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+**NOTE** it seems that some times you should create into `Docs` a `404.html` file and copy in there everithing from `index.html`.
