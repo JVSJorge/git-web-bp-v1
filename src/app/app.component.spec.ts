@@ -28,4 +28,8 @@ describe('AppComponent', () => {
     const compiled = fixture.nativeElement;
     expect(compiled.querySelector('.content span').textContent).toContain('git-web-bp-v1 app is running!');
   });
+
+  it('should no pass', () => {
+    expect(true).toBeFalsy();
+  });
 });
