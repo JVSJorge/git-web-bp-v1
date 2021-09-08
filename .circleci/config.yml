@@ -16,6 +16,7 @@ jobs:
           paths:
             - "nodes_modules"
       - run: npm run test -- --no-watch --no-progress
+      - run: ng serve
       - run: npx cypress run
       - run: npm run build
 
