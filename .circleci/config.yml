@@ -16,8 +16,7 @@ jobs:
           paths:
             - "nodes_modules"
       - run: npm run test -- --no-watch --no-progress
-      - run: npm run start
-      - run: npx cypress run
+      - run: npm run cypress:cli
       - run: npm run build
 
 workflows:
