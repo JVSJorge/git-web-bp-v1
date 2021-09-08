@@ -22,4 +22,18 @@ Select Branch `Main` and `Docs`
 
 Go to the link provided by Github and hard refresh if it is necessary.
 
-**NOTE** it seems that some times you should create into `Docs` a `404.html` file and copy in there everithing from `index.html`.
+**NOTE** it seems that some times you should create into `Docs` a `404.html` file and copy in there everithing from `index.htm
+
+------------------------------
+
+## Circle CI
+To adapt CI to your project you need:
+
+1. Create your `yaml` configuration. This can be just copy from this project, is very basic just run the unit tests and build the app.
+2. Log in into Circle CI.
+3. Go to your `Projects`.
+4. Set Up Project button.
+5. It will ask you for your yaml, just upload the example you have in this repo path: `.circleci/config.yml`.
+6. Thats it.!!!!
+
+------------------------------
