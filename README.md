@@ -37,3 +37,39 @@ To adapt CI to your project you need:
 6. Thats it.!!!!
 
 ------------------------------
+
+## Cypress
+How Install:
+`npm install cypress --save-dev`
+
+Into `cypress.json` copy:
+
+```json
+{
+  "baseUrl": "http://localhost:4200"
+}
+```
+Run: `npx cypress open`
+
+------------------------------
+
+## Storybook
+How Install:
+
+`npx sb init`
+
+`npm run storybook`
+
+Use:
+In the module we will use the componentes (shared.modiled recommended). Import the story component `../stories/xxx.component`and copy it into `declarations`, now we can use the Story HTML tag.
+
+------------------------------
+
+## Bootstrap
+How Install:
+
+`ng add ngx-bootstrap` in CMD recomended.
+
+Then copy the js from ng bootstrap webpage into `index.html`.
+
+------------------------------
