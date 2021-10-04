@@ -42,6 +42,8 @@ To adapt CI to your project you need:
 How Install:
 `npm install cypress --save-dev`
 
+Run: `npx cypress open`
+
 Into `cypress.json` copy:
 
 ```json
@@ -49,7 +51,6 @@ Into `cypress.json` copy:
   "baseUrl": "http://localhost:4200"
 }
 ```
-Run: `npx cypress open`
 
 ------------------------------
 
